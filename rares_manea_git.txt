@@ -1,0 +1,107 @@
+    1  ping google.ro
+    2  sudo yum install nano
+    3  sudo yum install git
+    4  git --version
+    5  git config --g
+    6  git config --global
+    7  git config --global user.name "Rares"
+    8  git config --global user.email "rares.manea26@gmail.com"
+    9  git config --list
+   10  mkdir AOS
+   11  cd AOS
+   12  git clone
+   13  git clone git-basics
+   14  git --version
+   15  git --list
+   16  git config --list
+   17  cd AOS
+   18  git remote add origin git@github.com:raresmanea/git-basics.git
+   19  git clone https://github.com/raresmanea/git-basics.git
+   20  nano myfile1.tx
+   21  nano myfile1.txt
+   22  git add .
+   23  git add.
+   24  git add .
+   25  git init
+   26  git add .
+   27  git commit -m "first comm"
+   28  git add .
+   29  git commit -m "first comm"
+   30  git status
+   31  nano test.txt
+   32  git add .
+   33  git commit -m "first comm"
+   34  git --version
+   35  git config --global user.name "Rares"
+   36  git config --global user.email "rares.manea26@gmail.com"
+   37  git config --list
+   38  ls
+   39  cd AOS
+   40  ls
+   41  git clone https://github.com/raresmanea/git-basics.git
+   42  cd git-basics
+   43  ls
+   44  git clone https://github.com/raresmanea/git-basics.git
+   45  nano TestFile.txt
+   46  git commit -a -m "Initial commit from VM"
+   47  git add .
+   48  git push
+   49  git status
+   50  git push
+   51  git status
+   52  git checkout master
+   53  git checkout origin master
+   54  git remote add origin https://github.com/raresmanea/git-basics.git
+   55  git push -u origin master
+   56  git init
+   57  git add README.md
+   58  git commit -m "first commit"
+   59  git remote add origin https://github.com/raresmanea/git-basics.git
+   60  git push -u origin master
+   61  nano myfile2.txt
+   62  git commit -a -m "Initial commit from VM"
+   63  git add .
+   64  git push
+   65  git status
+   66  git remote add origin https://github.com/raresmanea/git-basics.git
+   67  git push -u origin master
+   68  git status
+   69  git push 
+   70  git status
+   71  git push -u origin master
+   72  git status
+   73  git push all
+   74  git push.default
+   75  git --help
+   76  git pull
+   77  git push
+   78  git status
+   79  git commit -m "this is not a test"
+   80  git add .
+   81  git push
+   82  git status
+   83  git branch -a
+   84  git pull
+   85  git checkout -b NewBranch
+   86  git push origin NewBranch
+   87  git checkout -b NewBranch
+   88  git branch -a
+   89  nano otherFile.txt
+   90  git commit -m "second branch"
+   91  git add .
+   92  git push
+   93  git status
+   94  git commit -m "second branch"
+   95  git add .
+   96  git push
+   97  git merge master
+   98  git status
+   99  git checkout master
+  100  git merge NewBranch
+  101  git commit -a -m "Added file from new branch"
+  102  git add .
+  103  git push
+  104  git status
+  105  history -w raresmanea_git.txt
+  106  history -w
+  107  history > rares_manea_git.txt

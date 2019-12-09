@@ -1,0 +1,105 @@
+ping google.ro
+sudo yum install nano
+sudo yum install git
+git --version
+git config --g
+git config --global
+git config --global user.name "Rares"
+git config --global user.email "rares.manea26@gmail.com"
+git config --list
+mkdir AOS
+cd AOS
+git clone
+git clone git-basics
+git --version
+git --list
+git config --list
+cd AOS
+git remote add origin git@github.com:raresmanea/git-basics.git
+git clone https://github.com/raresmanea/git-basics.git
+nano myfile1.tx
+nano myfile1.txt
+git add .
+git add.
+git add .
+git init
+git add .
+git commit -m "first comm"
+git add .
+git commit -m "first comm"
+git status
+nano test.txt
+git add .
+git commit -m "first comm"
+git --version
+git config --global user.name "Rares"
+git config --global user.email "rares.manea26@gmail.com"
+git config --list
+ls
+cd AOS
+ls
+git clone https://github.com/raresmanea/git-basics.git
+cd git-basics
+ls
+git clone https://github.com/raresmanea/git-basics.git
+nano TestFile.txt
+git commit -a -m "Initial commit from VM"
+git add .
+git push
+git status
+git push
+git status
+git checkout master
+git checkout origin master
+git remote add origin https://github.com/raresmanea/git-basics.git
+git push -u origin master
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/raresmanea/git-basics.git
+git push -u origin master
+nano myfile2.txt
+git commit -a -m "Initial commit from VM"
+git add .
+git push
+git status
+git remote add origin https://github.com/raresmanea/git-basics.git
+git push -u origin master
+git status
+git push 
+git status
+git push -u origin master
+git status
+git push all
+git push.default
+git --help
+git pull
+git push
+git status
+git commit -m "this is not a test"
+git add .
+git push
+git status
+git branch -a
+git pull
+git checkout -b NewBranch
+git push origin NewBranch
+git checkout -b NewBranch
+git branch -a
+nano otherFile.txt
+git commit -m "second branch"
+git add .
+git push
+git status
+git commit -m "second branch"
+git add .
+git push
+git merge master
+git status
+git checkout master
+git merge NewBranch
+git commit -a -m "Added file from new branch"
+git add .
+git push
+git status
+history -w raresmanea_git.txt
